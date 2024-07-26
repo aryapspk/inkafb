@@ -89,7 +89,7 @@ async def next_page(bot, query):
         ]
     )
     btn.insert(0, [
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+        
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
         InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
     ])
@@ -238,7 +238,7 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
         ]
     )
     btn.insert(0, [
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+        
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
         InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
     ])
@@ -350,7 +350,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
         ]
     )
     btn.insert(0, [
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+        
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
         InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
     ])
@@ -464,7 +464,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         ]
     )
     btn.insert(0, [
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+        
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
         InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
     ])
@@ -605,7 +605,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         ]
     )
     btn.insert(0, [
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+        
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
         InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
     ])   
@@ -713,7 +713,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         ]
     )
     btn.insert(0, [
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+        
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
         InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
     ])
@@ -910,7 +910,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
         ]
     )
     btn.insert(0, [
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+        
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
         InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
     ])
@@ -1026,7 +1026,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
     SPELL_CHECK[mv_id] = movielist
     if vj_search == True:
         vj_search_new = False
-        vj_ai_msg = await reply_msg.edit_text("<b><i>Advance Ai Of Tech VJ Try To Find Your Movie With Your Wrong Spelling.</i></b>")
+        vj_ai_msg = await reply_msg.edit_text("<b><i>Advance Ai Of Tech MnT Try To Find Your Movie With Your Wrong Spelling.</i></b>")
         movienamelist = []
         movienamelist += [movie.get('title') for movie in movies]
         for techvj in movienamelist:
